@@ -1,133 +1,417 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
- <title></title>
+
+
 <style type="text/css">
+
  *{
+
   padding-top: 0;
+
   margin: 0;
+
  }
+
  .clear{
+
   clear:both;
+
  }
+
  header{
-  width: 1000px;
+
   height: 40px;
+
   font-size: 13px;
+
   color: gray;
+
+
    }
+
  #top{
+
   float: right;
-  margin: 10px 10px 0px 0;
+
+  margin: 20px 30px 0px 0;
+
   cursor : pointer;
+
+
+
  }
+
  #logo{
-  text-align: center;
+
+  text-align: left;
+
   font-weight: bold;
-  font-size: 50px;
-  font-style: italic;
+
+  font-size: 45px;
+  
+  margin-left: 35px;
+  margin-bottom: 10px;
  }
+
  .navi{
-  width: 100%;
+
+  font-style: bold;
+
+ }
+
+ nav{
+ 
+  margin: 0px;
+ 
+  padding: 0px;
+
   margin-top: 10px;
+
   height: 30px;
-  border: solid 1px #cccccc;
+
   padding-top: 10px;
-  background-color: #2E2E2E;
-  color: white;
- }
- nav li{
-  display: inline;
-  margin: 50px;
+
   cursor : pointer;
+
+  text-align: left;
+
+
+ }
+
+ nav li{
+
+  text-align : left;
+
+  cursor : pointer;
+
   font-size : 15px;
+
+
  }
+
  li{
+
   list-style-type: none;
+
  }
+ 
  section{
+
   float: left;
+
   margin-top: 10px;
-  border:solid 1px #cccccc;
+
+  margin-left : 30px;
+
  }
+
  aside{
+
   float: left;
+
   margin-top: 10px;
-  margin-left: 30px;
+
+
   border: solid 1px #cccccc;
+
   padding-left: 25px;
+
  }
+
  aside li{
+
   margin-bottom: 20px;
+
  }
- footer{
-  width: 1000px;
-  height: 100px;
+
+footer{
   margin-top: 10px;
-  border: solid 1px #cccccc;
- }
- #address{
-  float: left;
-  margin: 30px 0 0 20px;
- }
- #customer{
-  float: right;
-  margin: 30px 0 0 180px;
- }
+  font-size:12px;
+  position: relative;
+  text-align: center;
+  bottom: -220px;
+}
  #page{
-  width: 1000px;
+
   margin: auto;
+
   //border: solid 1px red;
+
  }
+
+ .dropdown{
+
+    display: inline-block;
+    font-weight: bold;
+
+  }
+
+  .dropdownContents{
+
+    display: none;
+
+    background-color: #BDBDBD;
+
+    position: absolute;
+
+    width: 100px;
+
+    padding: 12px 16px;
+
+  }
+
+  .qwq{
+    padding-bottom: 10px
+  }
+
+  .qwq:hover{
+    text-decoration: underline;
+
+  }
+  .dropdown:hover .dropdownContents{
+
+    display: block;
+
+  }
+  .dropdownContents:hover{
+    text-decoration : underline;
+  }
+  img{
+    display: inline-block;
+  }
+  a:link{
+    color: gray;
+
+  }
+  a:hover{
+    color: black;
+  }
+  a:visited{
+    color: gray;
+  }
 </style>
+
 </head>
 
+ 
+
+ 
 
 <body>
+
  <div id='page'>
+
 <header>
+
  <div id='top'>
-  로그인&nbsp; 회원가입&nbsp; 마이페이지&nbsp; 고객센터 ▼
+
+  <a href="./login.html" color="gray" style="text-decoration: none">
+  LOGIN</a> &nbsp; | &nbsp; <a href="./join.html" color="gray" style="text-decoration: none">JOIN</a> &nbsp; | &nbsp; MY PAGE
+
  </div>
+
  </header>
+
  <div id='logo'>
-LOGO
+
+  FOOD TRIP 
+
  </div>
+
  <div class="clear"></div>
+
  <nav>
-  <ul class="navi">
-   <li>해외여행</li>
-   <li>국내여행</li>
-   <li>최저가여행</li>
-   <li>항공권</li>
-   <li>호텔</li>
-  </ul>
+
+  <div class="dropdown">
+
+<ul class="navi"> ★BEST
+
+  <div class="dropdownContents">
+
+  <li class="qwq">아시아</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
+
+ 
+
+  <div class="dropdown">
+
+<ul class="navi"> 한식
+
+  <div class="dropdownContents">
+
+  <li class="qwq">dktldk</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
+
+ 
+
+  <div class="dropdown">
+
+<ul class="navi"> 일식
+
+  <div class="dropdownContents">
+
+  <li class="qwq">아시아</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
+
+ 
+
+  <div class="dropdown">
+
+<ul class="navi"> 중식
+
+  <div class="dropdownContents">
+
+  <li class="qwq">아시아</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
+
+ 
+
+  <div class="dropdown">
+
+<ul class="navi"> 가격대
+
+  <div class="dropdownContents">
+
+  <li class="qwq">아시아</li>
+
+  <li class="qwq">아시아</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
+
+ 
+
  </nav>
 
+ 
+
  <div class='clear'></div>
+ <hr>
+<br>
  <section>
-  <img src="./img/main.PNG" width=760>
+  <H3> BEST </H3>
+  <br>
+
+  <img class="bb" src="./img/main.PNG" width="250px" style="display: block;"> <h4 class="aa">베어스덴 브런치</h6>
+연남동<br>
+
+  <img class="bb" src="./img/mong.png" width="250px" style="display:block;">
  </section>
+
    <aside>
+
     <ul>
+
      <li>마을여행</li>
+
      <li>핵심혜택</li>
+
      <li>이벤트</li>
+
      <li>대한민국 구석구석</li>
+
     </ul>
+
    </aside>
+
 <section class='clear'>
+
  <img src="./img/main1.PNG" width=1000>
+
 </section>
+
 <div class='clear'></div>
+
 <footer>
- <div id='address'>
-  주최 : 문화체육관광부<br>
-  주관 : 한국관광공사, 한국관광협회중앙회, 전국지방자치단체
- </div>
- <div id='customer'>
-  관광안내전화 : 국번없이 1330
- </div>
+<hr><p>
+  문의전화 : 1300-1234<br>
+
+  Copyright © FOOD TRIP All Rights Reserved.<br>
+
+
+
 </footer>
+
+
 </body>
+
 </html> 
+
+맨위로
+
