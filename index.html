@@ -6,68 +6,120 @@
 
 
 <style type="text/css">
+
  *{
+
   padding-top: 0;
+
   margin: 0;
+
  }
+
  .clear{
+
   clear:both;
+
  }
+
  header{
+
   height: 40px;
+
   font-size: 13px;
+
   color: gray;
+
+
    }
+
  #top{
+
   float: right;
-  margin: 20px 30px 0px 0;
+
+  margin: 20px 60px 0px 0;
+
   cursor : pointer;
+
+
+
  }
+
  #logo{
-  text-align: left;
+
+  text-align: center;
+
   font-weight: bold;
+
   font-size: 45px;
   
   margin-left: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
  }
+
  .navi{
+
   font-style: bold;
+
+
  }
+h1{
+  color: #FF8000;
+}
  nav{
  
   margin: 0px;
  
   padding: 0px;
+
   margin-top: 10px;
+
   height: 30px;
+
   padding-top: 10px;
+
   cursor : pointer;
-  text-align: left;
+
+  text-align : center;
+
+  font-size : 16px;
+
  }
+
  nav li{
+
   text-align : left;
+
   cursor : pointer;
+
   font-size : 15px;
+
  }
+
+ .navi:hover{
+  color: 
+ }
+
  li{
+
   list-style-type: none;
+
  }
- 
+ .hr{
+  margin-top: 5px;
+  border : solid 1.5px black;
+ }
+
  section{
+
   float: left;
+
   margin-top: 10px;
+
   margin-left : 30px;
+
  }
- aside{
-  float: left;
-  margin-top: 10px;
-  border: solid 1px #cccccc;
-  padding-left: 25px;
- }
- aside li{
-  margin-bottom: 20px;
- }
+
+
 footer{
   margin-top: 10px;
   font-size:12px;
@@ -76,28 +128,51 @@ footer{
   bottom: -220px;
 }
  #page{
+
   margin: auto;
+
   //border: solid 1px red;
+
+  width: 1100px;
  }
+
  .dropdown{
+
     display: inline-block;
     font-weight: bold;
+    margin-right:20px;
+    margin-left: 15px; 
+
   }
+
   .dropdownContents{
+
     display: none;
+
     background-color: #BDBDBD;
+
     position: absolute;
+
     width: 100px;
+
     padding: 12px 16px;
+
   }
+
   .qwq{
-    padding-bottom: 10px
+    padding-bottom: 10px;
+
+
   }
+
   .qwq:hover{
     text-decoration: underline;
+
   }
   .dropdown:hover .dropdownContents{
+
     display: block;
+
   }
   .dropdownContents:hover{
     text-decoration : underline;
@@ -107,12 +182,16 @@ footer{
   }
   a:link{
     color: gray;
+
   }
   a:hover{
     color: black;
   }
   a:visited{
     color: gray;
+  }
+  .font a{
+    font-size: 18px
   }
 </style>
 
@@ -124,7 +203,7 @@ footer{
 
 <body>
 
- <div id='page'>
+
 
 <header>
 
@@ -171,11 +250,33 @@ footer{
 
 </ul>
 
- 
+ <div class="dropdown">
+
+<ul class="navi"> 한식
+
+  <div class="dropdownContents">
+
+  <li class="qwq">dktldk</li>
+
+  <li class="qwq">유럽</li>
+
+  <li class="qwq">아프리카</li>
+
+  <li class="qwq">북아메리카</li>
+
+  <li class="qwq">남아메리카</li>
+
+  <li class="qwq">오스트레일리아</li>
+
+</div>
+
+</div>
+
+</ul>
 
   <div class="dropdown">
 
-<ul class="navi"> 한식
+<ul class="navi"> 양식
 
   <div class="dropdownContents">
 
@@ -201,7 +302,7 @@ footer{
 
   <div class="dropdown">
 
-<ul class="navi"> 일식
+<ul class="navi"> 카페/디저트
 
   <div class="dropdownContents">
 
@@ -227,7 +328,7 @@ footer{
 
   <div class="dropdown">
 
-<ul class="navi"> 중식
+<ul class="navi"> 일식/중식
 
   <div class="dropdownContents">
 
@@ -253,7 +354,7 @@ footer{
 
   <div class="dropdown">
 
-<ul class="navi"> 가격대
+<ul class="navi"> 베트남/태국
 
   <div class="dropdownContents">
 
@@ -280,41 +381,46 @@ footer{
  
 
  </nav>
-
- 
+<hr class="hr">
+  <div id='page'>
 
  <div class='clear'></div>
- <hr>
+
 <br>
  <section>
-  <H3> BEST </H3>
+  <H1> BEST </H1>
   <br>
 
-  <img class="bb" src="./img/main.PNG" width="250px" style="display: block;"> <h4 class="aa">베어스덴 브런치</h6>
-연남동<br>
+  <a href="./bear.html"><img class="bb" src="./img/main.PNG" width="350" height="350"></a> 
 
-  <img class="bb" src="./img/mong.png" width="250px" style="display:block;">
+  <img class="bb" src="./img/mong.png" width="350" height="350">
+
+  <a href="./kok.html"><img class="bb" src="./img/todn.PNG" width="350" height="350"></a>
  </section>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 
-   <aside>
+<div class="font">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>- 베어스덴 브런치</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연남동
 
-    <ul>
-
-     <li>마을여행</li>
-
-     <li>핵심혜택</li>
-
-     <li>이벤트</li>
-
-     <li>대한민국 구석구석</li>
-
-    </ul>
-
-   </aside>
-
+</div>
 <section class='clear'>
 
- <img src="./img/main1.PNG" width=1000>
+ 
 
 </section>
 
@@ -334,3 +440,4 @@ footer{
 </body>
 
 </html> 
+
