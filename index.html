@@ -46,16 +46,25 @@
 
  #logo{
 
-  text-align: center;
-
+  text-align: left;
+  margin-left: 190px;
   font-weight: bold;
-
   font-size: 45px;
-  
-  margin-left: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
  }
 
+  a.logo:link{
+    color: black;
+    text-decoration: none;
+  }
+  a.logo:visited{
+    color:black;
+    text-decoration;
+  }
+  a.logo:hover{
+    color:black;
+    text-decoration;
+  }
  .navi{
 
   font-style: bold;
@@ -64,12 +73,13 @@
  }
 h1{
   color: #FF8000;
+  font-size: 35px;
 }
  nav{
  
   margin: 0px;
  
-  padding: 0px;
+  padding-left: 140px;
 
   margin-top: 10px;
 
@@ -79,7 +89,7 @@ h1{
 
   cursor : pointer;
 
-  text-align : center;
+  text-align : left;
 
   font-size : 16px;
 
@@ -88,8 +98,6 @@ h1{
  nav li{
 
   text-align : left;
-
-  cursor : pointer;
 
   font-size : 15px;
 
@@ -104,13 +112,16 @@ h1{
   list-style-type: none;
 
  }
+ li:hover{
+ }
  .hr{
   margin-top: 5px;
   border : solid 1.5px black;
  }
 
  section{
-
+  width: 900px;
+  
   float: left;
 
   margin-top: 10px;
@@ -133,14 +144,14 @@ footer{
 
   //border: solid 1px red;
 
-  width: 1100px;
+  width: 1200px;
  }
 
  .dropdown{
 
     display: inline-block;
     font-weight: bold;
-    margin-right:20px;
+    margin-right:60px;
     margin-left: 15px; 
 
   }
@@ -153,36 +164,35 @@ footer{
 
     position: absolute;
 
-    width: 100px;
-
     padding: 12px 16px;
 
   }
 
   .qwq{
     padding-bottom: 10px;
-
-
   }
-
   .qwq:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 
   }
+
   .dropdown:hover .dropdownContents{
 
     display: block;
 
   }
-  .dropdownContents:hover{
-    text-decoration : underline;
-  }
+
   img{
     display: inline-block;
+    vertical-align: text-top;
+    margin-right: 40px;
+    margin-bottom : 10px;
+    width:250px;
+    height:250px;
   }
   a:link{
     color: gray;
-
+    text-decoration: none;
   }
   a:hover{
     color: black;
@@ -192,6 +202,31 @@ footer{
   }
   .font a{
     font-size: 18px
+  }
+  .name{
+    color: #424242;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+  .star{
+    color : #FF8000;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .one{
+    font-weight: bold;
+    color : #151515;
+  }
+  .two{
+    color : #848484;
+  }
+  .three{
+  color :#FF8000 ;
+  }
+  aside{
+    margin-top: 80px;
   }
 </style>
 
@@ -217,9 +252,9 @@ footer{
  </header>
 
  <div id='logo'>
-
+ <a class="logo" href="index.html">
   FOOD TRIP 
-
+ </a>
  </div>
 
  <div class="clear"></div>
@@ -232,22 +267,22 @@ footer{
 
   <div class="dropdownContents">
 
-  <li class="qwq">아시아</li>
+  <li class="qwq">베어스덴 브런치카페</li>
 
-  <li class="qwq">유럽</li>
+  <li class="qwq">방콕 익스프레스</li>
 
-  <li class="qwq">아프리카</li>
+  <li class="qwq">문라이즈</li>
 
-  <li class="qwq">북아메리카</li>
+  <li class="qwq">이치젠</li>
 
-  <li class="qwq">남아메리카</li>
+  <li class="qwq">프롬하노이</li>
 
-  <li class="qwq">오스트레일리아</li>
-
-</div>
+  <li class="qwq">당도</li>
 
 </div>
 
+</div>
+|
 </ul>
 
  <div class="dropdown">
@@ -256,22 +291,22 @@ footer{
 
   <div class="dropdownContents">
 
-  <li class="qwq">dktldk</li>
+  <li class="qwq">지호한방삼계탕</li>
 
-  <li class="qwq">유럽</li>
+  <li class="qwq">청어람곱창전골</li>
 
-  <li class="qwq">아프리카</li>
+  <li class="qwq">한강껍데기</li>
 
-  <li class="qwq">북아메리카</li>
+  <li class="qwq">순대일번지</li>
 
-  <li class="qwq">남아메리카</li>
+  <li class="qwq">추남식당</li>
 
-  <li class="qwq">오스트레일리아</li>
-
-</div>
+  <li class="qwq">청기와식당</li>
 
 </div>
 
+</div>
+|
 </ul>
 
   <div class="dropdown">
@@ -280,43 +315,17 @@ footer{
 
   <div class="dropdownContents">
 
-  <li class="qwq">dktldk</li>
+  <li class="qwq">로사미나미</li>
 
-  <li class="qwq">유럽</li>
+  <li class="qwq">빙하의 별</li>
 
-  <li class="qwq">아프리카</li>
+  <li class="qwq">마리오파스타</li>
 
-  <li class="qwq">북아메리카</li>
+  <li class="qwq">고래파스타</li>
 
-  <li class="qwq">남아메리카</li>
+  <li class="qwq">블루쿠치나</li>
 
-  <li class="qwq">오스트레일리아</li>
-
-</div>
-
-</div>
-
-</ul>
-
- 
-
-  <div class="dropdown">
-
-<ul class="navi"> 카페/디저트
-
-  <div class="dropdownContents">
-
-  <li class="qwq">아시아</li>
-
-  <li class="qwq">유럽</li>
-
-  <li class="qwq">아프리카</li>
-
-  <li class="qwq">북아메리카</li>
-
-  <li class="qwq">남아메리카</li>
-
-  <li class="qwq">오스트레일리아</li>
+  <li class="qwq">웨스트사이드</li>
 
 </div>
 
@@ -324,7 +333,7 @@ footer{
 
 </ul>
 
- 
+| 
 
   <div class="dropdown">
 
@@ -332,17 +341,17 @@ footer{
 
   <div class="dropdownContents">
 
-  <li class="qwq">아시아</li>
+  <li class="qwq">이치젠</li>
 
-  <li class="qwq">유럽</li>
+  <li class="qwq">혼다라멘</li>
 
-  <li class="qwq">아프리카</li>
+  <li class="qwq">키친갈매기</li>
 
-  <li class="qwq">북아메리카</li>
+  <li class="qwq">소이양꼬치</li>
 
-  <li class="qwq">남아메리카</li>
+  <li class="qwq">맛이차이나</li>
 
-  <li class="qwq">오스트레일리아</li>
+  <li class="qwq">라화쿵부</li>
 
 </div>
 
@@ -350,27 +359,49 @@ footer{
 
 </ul>
 
- 
+ |
 
   <div class="dropdown">
 
-<ul class="navi"> 베트남/태국
+<ul class="navi"> 동남아시아
 
   <div class="dropdownContents">
 
-  <li class="qwq">아시아</li>
+  <li class="qwq">라오삐약</li>
 
-  <li class="qwq">아시아</li>
+  <li class="qwq">툭툭누들타이</li>
 
-  <li class="qwq">유럽</li>
+  <li class="qwq">프롬하노이</li>
 
-  <li class="qwq">아프리카</li>
+  <li class="qwq">델리하노이</li>
 
-  <li class="qwq">북아메리카</li>
+  <li class="qwq">발리인망원</li>
 
-  <li class="qwq">남아메리카</li>
+</div>
 
-  <li class="qwq">오스트레일리아</li>
+</div>
+
+</ul>
+
+ |
+
+  <div class="dropdown">
+
+<ul class="navi"> 카페/디저트
+
+  <div class="dropdownContents">
+
+  <li class="qwq">도쿄빙수</li>
+
+  <li class="qwq">당도</li>
+
+  <li class="qwq">호시절</li>
+
+  <li class="qwq">비바쌀롱</li>
+
+  <li class="qwq">꼬르소산도</li>
+
+  <li class="qwq">디어마이페어리</li>
 
 </div>
 
@@ -388,34 +419,72 @@ footer{
 
 <br>
  <section>
-  <H1> BEST </H1>
+  <h1>BEST 9 </h1>
   <br>
 
-  <a href="./bear.html"><img class="bb" src="./img/main.PNG" width="350" height="350"></a> 
+  <a href="./bear.html"><img class="bb" src="./img/main.PNG" height ="250" ></a>
+  <a href="./kok.html"><img class="bb" src="./img/a.PNG"  height ="250"></a>
+  <img class="bb" src="./img/q.PNG" height="250">
+ <p>
+  <span class="name">1. 베어스덴 브런치 카페 </span><span class="star"> ★4.2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">2. 방콕 익스프레스</span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">3. 문라이즈 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.0</span>
+  <div class="name"><br><br><br><br><p>
 
-  <img class="bb" src="./img/a.PNG" width="350" height="350">
+  <img class="bb" src="./img/ejvqkq.PNG" height ="250" >
+  <img class="bb" src="./img/ekdeh.PNG" height ="250" >
+  <img class="bb" src="./img/gkshdl.PNG" height ="250" >
+  <p>
+   <span class="name">4. 이치젠 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">5. 당도 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">6. 프롬하노이 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.5</span>
+  <div class="name"><br><br><br><br><p>
 
-  <a href="./kok.html"><img class="bb" src="./img/todn.PNG" width="350" height="350"></a>
+  <img class="bb" src="./img/did.PNG" height ="250" >
+  <img class="bb" src="./img/tka.PNG" height ="250" >
+  <a href="./bingsu.html"><img class="bb" src="./img/qldtn.PNG" height ="250" ></a>
+  <p>
+   <span class="name">7. 소이양꼬치 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">8. 지호 한방 삼계탕 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ★4.9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="name">9. 도쿄빙수 </span><span class="star">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★4.3</span>
  </section>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
+<aside>
+  <a href="./bear.html">
+  <span class="one">1. 베어스덴 브런치 카페</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울시 서대문구 창천동 441</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.7</span></a><br><br>
+
+  <a href="./kok.html">
+  <span class="one">2. 방콕 익스프레스</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 서대문구 연세로2길 91</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.7</span></a><br><br>
+
+  <span class="one">3. 문라이즈</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 토정로 27-1</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.0</span><br><br>
+
+  <span class="one">4. 이치젠</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 포은로 109</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.1</span><br><br>
+
+  <span class="one">5. 당도</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 포은로 106</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.6</span><br><br>
+
+  <span class="one">6. 프롬하노이</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 포은로8길 20</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.5</span><br><br>
+
+  <span class="one">7. 소이양꼬치</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 방울내로 88</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.8</span><br><br>
+
+  <span class="one">8.지호 한방 삼계탕</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 방울내로 77</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.9</span><br><br>
+
+<a href="./bingsu.html">
+  <span class="one">9.도쿄빙수</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="two">서울 마포구 포은로8길 9</span><br>
+    &nbsp;&nbsp;&nbsp;<span class="three">★4.3</span></a><br><br>
+
+  </aside>
 
 <div class="font">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>- 베어스덴 브런치</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연남동
 
 </div>
 <section class='clear'>
@@ -430,7 +499,7 @@ footer{
 <hr><p>
   문의전화 : 1300-1234<br>
 
-  Copyright © FOOD TRIP All Rights Reserved.<br>
+  Copyright © FOOD TRIP All Rights Reserved.<p>
 
 
 
